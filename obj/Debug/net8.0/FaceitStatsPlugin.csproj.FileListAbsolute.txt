@@ -1,0 +1,12 @@
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\bin\Debug\net8.0\FaceitStatsPlugin.deps.json
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\bin\Debug\net8.0\FaceitStatsPlugin.dll
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\bin\Debug\net8.0\FaceitStatsPlugin.pdb
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.csproj.AssemblyReference.cache
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.AssemblyInfoInputs.cache
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.AssemblyInfo.cs
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.csproj.CoreCompileInputs.cache
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.dll
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\refint\FaceitStatsPlugin.dll
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.pdb
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\ref\FaceitStatsPlugin.dll

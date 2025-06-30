@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|c:\\users\\koren\\onedrive\\desktop\\ucprojects\\gaming\\cs2\\faceitstatsplugin\\faceitstatsplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|solutionrelative:faceitstatsplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|c:\\users\\koren\\onedrive\\desktop\\ucprojects\\gaming\\cs2\\faceitstatsplugin\\models\\faceitmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|solutionrelative:models\\faceitmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|c:\\users\\koren\\onedrive\\desktop\\ucprojects\\gaming\\cs2\\faceitstatsplugin\\services\\faceitapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|solutionrelative:services\\faceitapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|c:\\users\\koren\\onedrive\\desktop\\ucprojects\\gaming\\cs2\\faceitstatsplugin\\utils\\chatutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|solutionrelative:utils\\chatutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|c:\\users\\koren\\onedrive\\desktop\\ucprojects\\gaming\\cs2\\faceitstatsplugin\\config\\pluginconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C2A95-A571-D20F-CE19-F41F448A78ED}|FaceitStatsPlugin.csproj|solutionrelative:config\\pluginconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatUtils.cs",
+              "DocumentMoniker": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Utils\\ChatUtils.cs",
+              "RelativeDocumentMoniker": "Utils\\ChatUtils.cs",
+              "ToolTip": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Utils\\ChatUtils.cs",
+              "RelativeToolTip": "Utils\\ChatUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:19:36.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FACEITApiService.cs",
+              "DocumentMoniker": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Services\\FACEITApiService.cs",
+              "RelativeDocumentMoniker": "Services\\FACEITApiService.cs",
+              "ToolTip": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Services\\FACEITApiService.cs",
+              "RelativeToolTip": "Services\\FACEITApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:19:30.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FACEITModels.cs",
+              "DocumentMoniker": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Models\\FACEITModels.cs",
+              "RelativeDocumentMoniker": "Models\\FACEITModels.cs",
+              "ToolTip": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Models\\FACEITModels.cs",
+              "RelativeToolTip": "Models\\FACEITModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:19:21.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PluginConfig.cs",
+              "DocumentMoniker": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Config\\PluginConfig.cs",
+              "RelativeDocumentMoniker": "Config\\PluginConfig.cs",
+              "ToolTip": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\Config\\PluginConfig.cs",
+              "RelativeToolTip": "Config\\PluginConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:19:04.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FACEITStatsPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\FACEITStatsPlugin.cs",
+              "RelativeDocumentMoniker": "FACEITStatsPlugin.cs",
+              "ToolTip": "C:\\Users\\koren\\OneDrive\\Desktop\\UCProjects\\Gaming\\CS2\\FaceitStatsPlugin\\FACEITStatsPlugin.cs",
+              "RelativeToolTip": "FACEITStatsPlugin.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T07:12:12.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
