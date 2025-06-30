@@ -11,4 +11,4 @@ public class PluginConfig : BasePluginConfig
 
     [JsonPropertyName("APIKey")] 
     public string APIKey { get; set; } = "YOUR_API_KEY_GOES_HERE";
-} 
+}

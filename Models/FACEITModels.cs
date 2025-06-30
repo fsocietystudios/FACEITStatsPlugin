@@ -84,4 +84,4 @@ public class PlayerStats
     public string? WinRate { get; set; }
     public string? AverageHeadshots { get; set; }
     public string? MatchesCount { get; set; }
-} 
+}

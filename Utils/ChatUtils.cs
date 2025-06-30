@@ -35,4 +35,4 @@ public static class ChatUtils
         player.PrintToChat($"{chatPrefix} {ChatColors.Orange}Country: {ChatColors.Default}{stats.Country?.ToUpper() ?? "Unknown"} {ChatColors.Orange}Region: {ChatColors.Default}{stats.Region ?? "Unknown"}");
         player.PrintToChat($"{chatPrefix} {ChatColors.Orange}Link: {ChatColors.Default}https://faceit.com/en/players/{stats.Nickname}");
     }
-} 
+}
