@@ -19,7 +19,7 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
     public override string ModuleName => "[CS] FACEIT Stats Plugin";
     public override string ModuleVersion => "1.0.0";
     public override string ModuleAuthor => "FSOCIETY Studios";
-    public override string ModuleDescription => "A simple FACEIT stats retriever using FACEITAnalyser's API.";
+    public override string ModuleDescription => "A simple FACEIT stats retriever.";
 
     public required PluginConfig Config { get; set; }
     private FACEITApiService? _apiService;
