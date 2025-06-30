@@ -26,11 +26,6 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
 
     public void OnConfigParsed(PluginConfig config)
     {
-        if (config.ChatInterval > 60)
-        {
-            config.ChatInterval = 60;
-        }
-
         if (config.ChatPrefix.Length > 25)
         {
             throw new Exception($"Invalid value has been set to config value 'ChatPrefix': {config.ChatPrefix}");
