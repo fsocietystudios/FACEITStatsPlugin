@@ -69,7 +69,7 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
 
     public void OpenPlayerSelectionMenu(CCSPlayerController player)
     {
-        var menu = new ChatMenu($"{Config.ChatPrefix} Select Player")
+        var menu = new ChatMenu($"{Config.ChatPrefix} Select a player")
         {
             TitleColor = ChatColors.Orange,
             ExitButton = true
