@@ -27,7 +27,7 @@ public class FACEITApiService
             return result;
         }
 
-        string APIurl = $"https://FACEITanalyser.com/api/playerDetails/{steamId}";
+        string APIurl = $"https://faceitanalyser.com/api/playerDetails/{steamId}";
         using HttpClient client = new HttpClient();
 
         try
@@ -133,7 +133,7 @@ public class FACEITApiService
             return string.Empty;
         }
 
-        string APIurl = $"https://open.FACEIT.com/data/v4/players/{playerId}/stats/cs2";
+        string APIurl = $"https://open.faceit.com/data/v4/players/{playerId}/stats/cs2";
         using HttpClient client = new HttpClient();
 
         _logger.LogInformation(APIurl);
