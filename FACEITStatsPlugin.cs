@@ -26,6 +26,16 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
 
     public void OnConfigParsed(PluginConfig config)
     {
+        if (config.CooldownMinutes < 1)
+        {
+            config.CooldownMinutes = 1;
+        }
+
+        if (config.CooldownMinutes > 60)
+        {
+            config.CooldownMinutes = 60;
+        }
+
         if (config.ChatPrefix.Length > 25)
         {
             throw new Exception($"Invalid value has been set to config value 'ChatPrefix': {config.ChatPrefix}");
@@ -61,8 +71,16 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
             ExitButton = true
         };
 
-        menu.AddMenuOption("Your FACEIT stats", (p, o) => { DisplayPlayerStats(player, player.SteamID); MenuManager.CloseActiveMenu(player); }, false);
-        menu.AddMenuOption("Another player's FACEIT stats", (p, o) => { MenuManager.CloseActiveMenu(player); OpenPlayerSelectionMenu(player); }, false);
+        menu.AddMenuOption("Your FACEIT stats", (p, o) => { 
+            if (CheckCooldown(player)) return;
+            DisplayPlayerStats(player, player.SteamID); 
+            MenuManager.CloseActiveMenu(player); 
+        }, false);
+        
+        menu.AddMenuOption("Another player's FACEIT stats", (p, o) => { 
+            MenuManager.CloseActiveMenu(player); 
+            OpenPlayerSelectionMenu(player); 
+        }, false);
 
         MenuManager.OpenChatMenu(player, menu);
     }
@@ -77,18 +95,34 @@ public class FACEITStatsPlugin : BasePlugin, IPluginConfig<PluginConfig>
 
         foreach (var targetPlayer in Utilities.GetPlayers().Where(p => p?.PlayerName != null))
         {
-            menu.AddMenuOption(targetPlayer.PlayerName, (p, o) => { DisplayPlayerStats(player, targetPlayer.SteamID); MenuManager.CloseActiveMenu(player); }, false);
+            menu.AddMenuOption(targetPlayer.PlayerName, (p, o) => { 
+                if (CheckCooldown(player)) return;
+                DisplayPlayerStats(player, targetPlayer.SteamID); 
+                MenuManager.CloseActiveMenu(player); 
+            }, false);
         }
 
         MenuManager.OpenChatMenu(player, menu);
     }
 
+    private bool CheckCooldown(CCSPlayerController player)
+    {
+        if (CooldownManager.IsOnCooldown(player.SteamID, Config.CooldownMinutes))
+        {
+            var remainingTime = CooldownManager.GetRemainingCooldown(player.SteamID, Config.CooldownMinutes);
+            ChatUtils.DisplayCooldownMessage(player, Config.ChatPrefix, remainingTime);
+            return true;
+        }
+        return false;
+    }
+
     private void DisplayPlayerStats(CCSPlayerController requester, ulong targetSteamId)
     {
-        _apiService.FetchAllPlayerStats(targetSteamId).ContinueWith(task =>
+        CooldownManager.SetCooldown(requester.SteamID);
+        
+        _apiService?.FetchAllPlayerStats(targetSteamId).ContinueWith(task =>
         {
-            Server.NextFrame(() =>
-            {
+            Server.NextFrame(() => {
                 if (task.IsFaulted || task.IsCanceled)
                 {
                     requester.PrintToChat($"{Config.ChatPrefix} Failed to fetch stats. Please try again later.");

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FACEITStatsPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46b33bbb30d9e704c03967770b7b95ccc472d0af")]
 [assembly: System.Reflection.AssemblyProductAttribute("FACEITStatsPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FACEITStatsPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

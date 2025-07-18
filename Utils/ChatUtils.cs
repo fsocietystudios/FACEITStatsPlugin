@@ -35,4 +35,19 @@ public static class ChatUtils
         player.PrintToChat($"{chatPrefix} {ChatColors.Orange}Country: {ChatColors.Default}{stats.Country?.ToUpper() ?? "Unknown"} {ChatColors.Orange}Region: {ChatColors.Default}{stats.Region ?? "Unknown"}");
         player.PrintToChat($"{chatPrefix} {ChatColors.Orange}Link: {ChatColors.Default}https://faceit.com/en/players/{stats.Nickname}");
     }
+
+    public static void DisplayCooldownMessage(CCSPlayerController player, string chatPrefix, TimeSpan remainingTime)
+    {
+        var minutes = (int)remainingTime.TotalMinutes;
+        var seconds = remainingTime.Seconds;
+        
+        if (minutes > 0)
+        {
+            player.PrintToChat($"{chatPrefix} Please wait {ChatColors.Red}{minutes}m {seconds}s {ChatColors.Default}before using this command again.");
+        }
+        else
+        {
+            player.PrintToChat($"{chatPrefix} Please wait {ChatColors.Red}{seconds}s {ChatColors.Default}before using this command again.");
+        }
+    }
 }

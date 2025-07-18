@@ -10,3 +10,4 @@ C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debu
 C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\refint\FaceitStatsPlugin.dll
 C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FaceitStatsPlugin.pdb
 C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\ref\FaceitStatsPlugin.dll
+C:\Users\koren\OneDrive\Desktop\UCProjects\Gaming\CS2\FaceitStatsPlugin\obj\Debug\net8.0\FACEITStatsPlugin.sourcelink.json
